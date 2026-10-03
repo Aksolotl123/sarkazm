@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Ikona: oko, uniesiona brew i krzywy uśmieszek. Wszystko w bezpiecznej strefie 66dp adaptacyjnej ikony. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#F4D35E"
+        android:pathData="M42,50m-4.5,0a4.5,4.5 0,1 1,9 0a4.5,4.5 0,1 1,-9 0" />
+    <path
+        android:pathData="M58,44 Q66,43 71,51"
+        android:strokeWidth="4.5"
+        android:strokeColor="#F4D35E"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M38,68 Q54,78 70,62"
+        android:strokeWidth="4.5"
+        android:strokeColor="#F4D35E"
+        android:strokeLineCap="round" />
+</vector>

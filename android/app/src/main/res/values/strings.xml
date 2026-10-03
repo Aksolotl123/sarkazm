@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Akademia Sarkazmu</string>
+    <string name="back">Wstecz</string>
+
+    <!-- Ekran główny -->
+    <string name="home_title">Naucz się sarkazmu.</string>
+    <string name="home_lead">Pięć krótkich lekcji, po każdej ćwiczenia, na końcu egzamin. Bez zaliczenia poprzedniej lekcji następna się nie otworzy, bo sarkazm bez podstaw to po prostu bycie nieprzyjemnym.</string>
+    <string name="home_progress">%1$d/%2$d</string>
+    <string name="home_progress_description">Ukończono %1$d z %2$d modułów</string>
+    <string name="home_diploma">🎓 Egzamin zaliczony. Możesz już oficjalnie mówić „no świetnie” i wiedzieć, co robisz.</string>
+    <string name="module_title">%1$d. %2$s</string>
+    <string name="module_locked">🔒 Zablokowane</string>
+    <string name="module_meta_new">%1$d pytań, próg %2$d%%</string>
+    <string name="module_meta_best">Najlepszy wynik: %1$d/%2$d, próg %3$d%%</string>
+    <string name="module_meta_done">✅ Zaliczone: %1$d/%2$d</string>
+    <string name="action_start">Zacznij</string>
+    <string name="action_try_again">Spróbuj znów</string>
+    <string name="action_repeat">Powtórz</string>
+    <string name="action_take_exam">Zdaj</string>
+    <string name="action_exercises_only">Same ćwiczenia</string>
+    <string name="training_title">🏋️ Trening</string>
+    <plurals name="training_description">
+        <item quantity="one">Dziesięć losowych pytań z odblokowanych lekcji (%d lekcja). Nie wpływa na postęp, wpływa na formę.</item>
+        <item quantity="few">Dziesięć losowych pytań z odblokowanych lekcji (%d lekcje). Nie wpływa na postęp, wpływa na formę.</item>
+        <item quantity="many">Dziesięć losowych pytań z odblokowanych lekcji (%d lekcji). Nie wpływa na postęp, wpływa na formę.</item>
+        <item quantity="other">Dziesięć losowych pytań z odblokowanych lekcji (%d lekcji). Nie wpływa na postęp, wpływa na formę.</item>
+    </plurals>
+    <string name="training_start">Rozpocznij trening</string>
+    <string name="reset_progress">Wyzeruj postęp</string>
+    <string name="reset_confirm_title">Wyzerować postęp?</string>
+    <string name="reset_confirm_text">Wszystkie wyniki znikną, a lekcje znowu się zablokują. Tego nie da się cofnąć.</string>
+    <string name="reset_confirm_yes">Wyzeruj</string>
+    <string name="cancel">Anuluj</string>
+    <string name="footer">Postęp zapisuje się tylko na tym urządzeniu. Sarkazm zapisuje się w ludziach.</string>
+
+    <!-- Lekcja -->
+    <string name="lesson_summary">W skrócie</string>
+    <string name="lesson_start_quiz">Przejdź do ćwiczeń (%d pytań)</string>
+
+    <!-- Quiz -->
+    <string name="quiz_title_lesson">Ćwiczenia: %s</string>
+    <string name="quiz_title_training">Trening</string>
+    <string name="quiz_counter">%1$d / %2$d</string>
+    <string name="quiz_quote">„%s”</string>
+    <string name="quiz_next">Dalej</string>
+    <string name="quiz_finish">Zobacz wynik</string>
+    <string name="quiz_empty">Brak pytań do wyświetlenia. To nie sarkazm, to naprawdę pusta lista.</string>
+    <string name="feedback_ok">✅ %s</string>
+    <string name="feedback_bad">❌ %s</string>
+
+    <!-- Podsumowanie -->
+    <string name="summary_score">%1$d / %2$d</string>
+    <string name="summary_percent">%d%%</string>
+    <string name="summary_passed">✅ Zaliczone</string>
+    <string name="summary_failed">❌ Niezaliczone (próg: %d%%)</string>
+    <string name="summary_next_lesson">Następna lekcja: %s</string>
+    <string name="summary_retry">Spróbuj ponownie</string>
+    <string name="summary_back">Wróć do lekcji</string>
+    <string name="comment_exam_passed">Egzamin zdany. Od dziś każde twoje „no świetnie” ma dyplom.</string>
+    <string name="comment_perfect">Komplet. Naprawdę. To nie jest sarkazm.</string>
+    <string name="comment_almost">Prawie komplet. Jedno potknięcie dodaje charakteru.</string>
+    <string name="comment_passed">Zaliczone. Następna lekcja czeka, o ile nie masz nic lepszego do roboty.</string>
+    <string name="comment_close">Blisko. Wróć do lekcji, przeczytaj jeszcze raz i spróbuj ponownie. Sarkazm cię nie oceni. Ja też nie. Może trochę.</string>
+    <string name="comment_low">No pięknie. Cudownie. Świetna robota. (To był przykład. Wróć do lekcji.)</string>
+    <string name="comment_zero">Zero. Statystycznie trudniej to osiągnąć niż komplet. Gratulacje?</string>
+
+    <!-- Zablokowany moduł -->
+    <string name="locked_text">Ten moduł jest jeszcze zablokowany. Zalicz wcześniejsze lekcje, a otworzy się sam. Magia.</string>
+    <string name="locked_back">Wróć do listy lekcji</string>
+</resources>

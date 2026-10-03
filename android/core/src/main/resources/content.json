@@ -1,0 +1,1554 @@
+{
+  "version": 1,
+  "modules": [
+    {
+      "id": "czym-jest",
+      "kind": "lekcja",
+      "title": "Czym jest sarkazm",
+      "subtitle": "Sarkazm, ironia i cynizm to nie to samo.",
+      "emoji": "🎭",
+      "quizSize": 10,
+      "passThreshold": 0.7
+    },
+    {
+      "id": "sygnaly",
+      "kind": "lekcja",
+      "title": "Jak go rozpoznać",
+      "subtitle": "Kontekst, przesada, ton i słowa-klucze.",
+      "emoji": "🔍",
+      "quizSize": 10,
+      "passThreshold": 0.7
+    },
+    {
+      "id": "rodzaje",
+      "kind": "lekcja",
+      "title": "Rodzaje sarkazmu",
+      "subtitle": "Od autoironii po kamienną twarz.",
+      "emoji": "🃏",
+      "quizSize": 10,
+      "passThreshold": 0.7
+    },
+    {
+      "id": "riposta",
+      "kind": "lekcja",
+      "title": "Budowanie riposty",
+      "subtitle": "Techniki i zasady dobrej odpowiedzi.",
+      "emoji": "⚔️",
+      "quizSize": 10,
+      "passThreshold": 0.7
+    },
+    {
+      "id": "kiedy",
+      "kind": "lekcja",
+      "title": "Kiedy (nie) używać",
+      "subtitle": "Sarkazm to sól, nie danie główne.",
+      "emoji": "🚦",
+      "quizSize": 10,
+      "passThreshold": 0.7
+    },
+    {
+      "id": "egzamin",
+      "kind": "egzamin",
+      "title": "Egzamin końcowy",
+      "subtitle": "Losowe pytania ze wszystkich lekcji.",
+      "emoji": "🎓",
+      "quizSize": 15,
+      "passThreshold": 0.8
+    }
+  ],
+  "lessons": [
+    {
+      "id": "czym-jest",
+      "title": "Czym jest sarkazm",
+      "intro": "Sarkazm to mówienie czegoś innego, niż się ma na myśli, po to, żeby zakpić, skrytykować albo rozbawić. Cała sztuka polega na tym, żeby słuchacz zauważył, że nie mówisz serio.",
+      "sections": [
+        {
+          "heading": "Definicja robocza",
+          "paragraphs": [
+            "Sarkazm to wypowiedź, w której słowa mówią jedno, a sytuacja mówi drugie. Chwalisz coś, co ewidentnie jest złe. Dziękujesz za coś, co ci zaszkodziło. Zachwycasz się czymś, co cię irytuje.",
+            "Słowo pochodzi z greckiego „sarkazein”, czyli „rozrywać mięso” albo „gryźć wargi ze złości”. To dobrze oddaje jego naturę: sarkazm ma ostrze. Nawet gdy jest żartobliwy, zawsze w coś celuje."
+          ],
+          "examples": [
+            {
+              "text": "Leje jak z cebra. „Piękna pogoda na grilla.”",
+              "note": "Sarkazm: słowa chwalą, sytuacja zaprzecza."
+            },
+            {
+              "text": "Świeci słońce, 24 stopnie. „Piękna pogoda na grilla.”",
+              "note": "To samo zdanie, na serio. Bez kontekstu nie odróżnisz."
+            }
+          ]
+        },
+        {
+          "heading": "Sarkazm a ironia",
+          "paragraphs": [
+            "Ironia to pojęcie szersze. Ironia werbalna to każdy rozdźwięk między tym, co powiedziane, a tym, co znaczone. Sarkazm to ironia werbalna z ostrzem, wymierzona w kogoś lub coś.",
+            "Ironia sytuacyjna to z kolei rozdźwięk między oczekiwaniem a rzeczywistością, bez żadnego mówcy. Strażak, któremu spłonął dom, to ironia losu, nie sarkazm."
+          ],
+          "examples": [
+            {
+              "text": "Instruktor BHP potyka się o własny kabel.",
+              "note": "Ironia sytuacyjna. Nikt nic nie powiedział."
+            },
+            {
+              "text": "Kolega, patrząc na to: „Wzór do naśladowania.”",
+              "note": "Sarkazm. Ktoś skomentował ironię losu z kpiną."
+            }
+          ]
+        },
+        {
+          "heading": "Sarkazm a cynizm",
+          "paragraphs": [
+            "Cynizm to postawa: przekonanie, że ludźmi kierują niskie pobudki i nie warto na nikogo liczyć. Sarkazm to narzędzie językowe. Cynik może być sarkastyczny, ale sarkasta nie musi być cynikiem.",
+            "„Ludzie zawsze zawodzą” to cynizm wypowiedziany zupełnie serio. „O, jak miło, że jednak przyszedłeś” po 40 minutach spóźnienia to sarkazm bez żadnej filozofii w tle."
+          ]
+        },
+        {
+          "heading": "Sarkazm a kłamstwo",
+          "paragraphs": [
+            "Kłamstwo chce, żebyś uwierzył. Sarkazm chce, żebyś NIE uwierzył, i na tym polega żart. Jeśli słuchacz bierze twoje słowa dosłownie, sarkazm nie zadziałał. Zostaje wtedy albo kłamstwo, albo nieporozumienie."
+          ],
+          "tip": "Test na sarkazm: czy odbiorca ma realną szansę zorientować się, że nie mówisz serio? Jeśli nie, to nie jest sarkazm."
+        }
+      ],
+      "takeaways": [
+        "Sarkazm = słowa mówią jedno, sytuacja drugie, z kpiącym ostrzem.",
+        "Ironia to szersze pojęcie; ironia losu nie potrzebuje mówcy.",
+        "Cynizm to postawa, sarkazm to narzędzie.",
+        "Sarkazm działa tylko wtedy, gdy odbiorca go rozpozna."
+      ]
+    },
+    {
+      "id": "sygnaly",
+      "title": "Jak rozpoznać sarkazm",
+      "intro": "Sarkazm zostawia ślady: w sytuacji, w doborze słów, w tonie głosu. Kiedy nauczysz się je widzieć, przestaniesz brać „no świetnie” za pochwałę.",
+      "sections": [
+        {
+          "heading": "Sygnał 1: rozdźwięk z sytuacją",
+          "paragraphs": [
+            "To najważniejszy sygnał. Jeśli ktoś chwali coś, co ewidentnie poszło źle, albo dziękuje za coś, co mu zaszkodziło, prawie na pewno nie mówi serio.",
+            "Dlatego sarkazm bez kontekstu nie istnieje. „Świetna robota” po podpisaniu umowy z klientem to pochwała. „Świetna robota” po wylaniu kawy na laptop klienta to sarkazm."
+          ]
+        },
+        {
+          "heading": "Sygnał 2: przesada",
+          "paragraphs": [
+            "Sarkazm lubi hiperbolę. „Najlepszy dzień w moim życiu” po stłuczce, „mamy przecież całe 20 minut” na trzy godziny roboty. Im większa przesada, tym wyraźniejszy sygnał."
+          ],
+          "examples": [
+            {
+              "text": "„Mamy całe 20 minut na trzy godziny roboty. Spokojnie zdążymy.”",
+              "note": "Liczby, które się nie zgadzają, to hiperbola w czystej postaci."
+            }
+          ]
+        },
+        {
+          "heading": "Sygnał 3: ton i mimika",
+          "paragraphs": [
+            "W mowie: przeciągnięte samogłoski („świeeetnie”), płaski, beznamiętny ton, uniesiona brew, przewrócone oczy, ciężkie westchnienie przed zdaniem.",
+            "W tekście tego wszystkiego nie ma. Zostają namiastki: „no super”, wielokropek, emotki 🙃 albo 🙄, w internecie oznaczenie „/s”. Badania nad e-mailami pokazują, że odbiorcy rozpoznają sarkazm w tekście niewiele lepiej niż rzutem monetą, choć nadawcy są przekonani, że wszystko jest jasne."
+          ],
+          "tip": "W wiadomościach tekstowych zakładaj, że połowa twojego sarkazmu zostanie odczytana dosłownie."
+        },
+        {
+          "heading": "Sygnał 4: słowa-klucze",
+          "paragraphs": [
+            "Polszczyzna ma swoje ulubione otwieracze sarkazmu: „no” na początku zdania („no pięknie”, „no dzięki”), „oczywiście”, „jasne”, „ależ”, „genialnie”, „no bo przecież”. Same w sobie nie przesądzają, ale w połączeniu z rozdźwiękiem sytuacyjnym są niemal pewne."
+          ],
+          "examples": [
+            {
+              "text": "„Dzięki za pomoc.”",
+              "note": "Neutralne, najpewniej szczere."
+            },
+            {
+              "text": "„No dzięki za pomoc.”",
+              "note": "Jedno „no” i zdanie zmienia znak."
+            }
+          ]
+        },
+        {
+          "heading": "Sygnał 5: kontrast rejestru",
+          "paragraphs": [
+            "Nadmiernie uprzejme, oficjalne słowa w sytuacji, która na to nie zasługuje. „Bardzo dziękuję za tę niezwykle cenną uwagę” w odpowiedzi na wytknięcie literówki. Im bardziej wyszukana forma, tym wyraźniejszy sarkazm."
+          ]
+        }
+      ],
+      "takeaways": [
+        "Najpierw patrz na sytuację, dopiero potem na słowa.",
+        "Przesada i liczby, które się nie zgadzają, to znak ostrzegawczy.",
+        "Ton zdradza sarkazm w mowie; w tekście łatwo go zgubić.",
+        "„No” na początku zdania potrafi odwrócić jego sens."
+      ]
+    },
+    {
+      "id": "rodzaje",
+      "title": "Rodzaje sarkazmu",
+      "intro": "Nie każdy sarkazm brzmi tak samo. Ten sam mechanizm (mówię odwrotnie, niż myślę) może być czuły, kamienny, przesłodzony albo jadowity. Warto wiedzieć, którego używasz i który cię właśnie trafił.",
+      "sections": [
+        {
+          "heading": "Autoironiczny",
+          "paragraphs": [
+            "Celem jesteś ty sam. „Jasne, ja i punktualność, najlepsi przyjaciele.” To najbezpieczniejszy rodzaj: nikogo nie rani, rozładowuje napięcie i pokazuje dystans do siebie. Idealny na start w nowej grupie."
+          ]
+        },
+        {
+          "heading": "Beznamiętny (deadpan)",
+          "paragraphs": [
+            "Wypowiedziany z kamienną twarzą, płaskim tonem, bez żadnego mrugnięcia. „Tak. Jestem zachwycony.” Najtrudniejszy do wyłapania, bo brak sygnałów tonalnych. Przez telefon i w tekście praktycznie nie do odróżnienia od powagi."
+          ]
+        },
+        {
+          "heading": "Przesłodzony",
+          "paragraphs": [
+            "Ociekający uprzejmością i czułością, aż do mdłości. „Kochanie, to takie urocze, że znowu zostawiłeś naczynia, uwielbiam je myć.” Im słodsze słowa, tym więcej pod nimi kwasu."
+          ]
+        },
+        {
+          "heading": "Złośliwy",
+          "paragraphs": [
+            "Wymierzony w konkretną osobę, żeby ją obniżyć. „Brawo, geniuszu. Nobel czeka.” Najbardziej ryzykowny: łatwo przekracza granicę między żartem a upokorzeniem. Działa tylko między ludźmi, którzy naprawdę się lubią i wiedzą, że to gra."
+          ]
+        },
+        {
+          "heading": "Ponury (z pretensją)",
+          "paragraphs": [
+            "Sarkazm, pod którym siedzi prawdziwy żal. „Nie, spoko, ja zostanę po godzinach. Jak zawsze.” To często pasywna agresja w przebraniu: zamiast powiedzieć, co boli, mówi się to naokoło."
+          ],
+          "tip": "Jeśli łapiesz się na ponurym sarkazmie, zwykle lepiej powiedzieć rzecz wprost."
+        },
+        {
+          "heading": "Entuzjastyczny (maniakalny)",
+          "paragraphs": [
+            "Przesadny zachwyt, który sam się demaskuje. „TAK! KOLEJNE SPOTKANIE! MOJE ULUBIONE!” Łatwy do rozpoznania, bo nikt nie cieszy się tak bardzo z ankiety satysfakcji."
+          ]
+        }
+      ],
+      "takeaways": [
+        "Autoironia jest najbezpieczniejsza, złośliwość najbardziej ryzykowna.",
+        "Beznamiętny sarkazm ginie w tekście i przez telefon.",
+        "Ponury sarkazm to często pretensja, którą lepiej wypowiedzieć wprost."
+      ]
+    },
+    {
+      "id": "riposta",
+      "title": "Budowanie riposty",
+      "intro": "Dobra sarkastyczna odpowiedź jest krótka, pewna i celuje w sytuację, nie w człowieka. Oto kilka sprawdzonych technik i zasady, które odróżniają ripostę od obrazy.",
+      "sections": [
+        {
+          "heading": "Technika 1: przesadna pochwała",
+          "paragraphs": [
+            "Chwal to, co ewidentnie jest złe, i dodaj jeden szczegół, który wszystko demaskuje. „Genialny plan. Co może pójść nie tak?”"
+          ]
+        },
+        {
+          "heading": "Technika 2: zgoda doprowadzona do absurdu",
+          "paragraphs": [
+            "Przytaknij i pociągnij pomysł o krok dalej, aż sam się ośmieszy. „Jasne, dodajmy jeszcze trzy funkcje przed piątkiem. I przy okazji przepiszmy całość od zera.”"
+          ]
+        },
+        {
+          "heading": "Technika 3: fałszywe zaskoczenie",
+          "paragraphs": [
+            "Udawaj, że coś przewidywalnego cię zdumiało. „Co?! Spóźniłeś się?! To zupełnie do ciebie niepodobne.”"
+          ]
+        },
+        {
+          "heading": "Technika 4: niedopowiedzenie",
+          "paragraphs": [
+            "Odwrotność hiperboli: opisz katastrofę jak drobiazg. Serwer padł, cała firma stoi: „Mamy mały problem.” Działa najlepiej z kamienną twarzą."
+          ]
+        },
+        {
+          "heading": "Technika 5: dosłowność",
+          "paragraphs": [
+            "Weź czyjeś słowa dokładnie tak, jak zostały powiedziane. „Wyślę to do końca dnia.” (mówione od tygodnia) „Jasne. Którego?”"
+          ]
+        },
+        {
+          "heading": "Zasady dobrej riposty",
+          "paragraphs": [
+            "Krótko. Jedno zdanie bije na głowę trzy. Riposta, którą trzeba dokończyć, już przegrała.",
+            "Nie tłumacz żartu. „Mówię to ironicznie, bo…” zabija sarkazm na miejscu. Jeśli trzeba tłumaczyć, to nie był dobry moment.",
+            "Jedna riposta, nie seria. Ciąg sarkastycznych zdań przestaje być żartem, a zaczyna być kłótnią.",
+            "Celuj w sytuację, nie w osobę. „Drukarka dziś wybrała przemoc” to żart, z którego wszyscy się śmieją. „Ty nawet drukarki nie ogarniasz” to obraza z sarkastyczną nakładką.",
+            "Ton pewny. Sarkazm powiedziany niepewnie brzmi jak pomyłka."
+          ],
+          "tip": "Obraza z uśmiechem to nadal obraza. Sarkazm ma śmieszyć, nie ranić."
+        }
+      ],
+      "takeaways": [
+        "Pięć technik: przesadna pochwała, absurdalna zgoda, fałszywe zaskoczenie, niedopowiedzenie, dosłowność.",
+        "Krótko, pewnie, bez tłumaczenia.",
+        "Jedna riposta na sytuację. Seria to już kłótnia.",
+        "Cel: sytuacja, nie człowiek."
+      ]
+    },
+    {
+      "id": "kiedy",
+      "title": "Kiedy (nie) używać sarkazmu",
+      "intro": "Sarkazm to sól: szczypta poprawia smak, garść psuje danie. Najlepsi sarkaści nie są najbardziej sarkastyczni. Są najlepsi w wyczuwaniu, kiedy przestać.",
+      "sections": [
+        {
+          "heading": "Zielone światło",
+          "paragraphs": [
+            "Bliscy znajomi, którzy znają twój styl. Sytuacje o niskiej stawce: zepsuta drukarka, słaby film, długie spotkanie. Cel: absurd sytuacji, nie konkretny człowiek. Wspólny „kod”: gdy wiesz, że druga strona się zaśmieje razem z tobą, a nie zostanie wyśmiana."
+          ]
+        },
+        {
+          "heading": "Żółte światło",
+          "paragraphs": [
+            "Praca: zależy od kultury zespołu. Testuj ostrożnie, zaczynając od autoironii. Nowe znajomości: nie wiesz jeszcze, jak ktoś czyta ton. Różnice kulturowe: w niektórych kręgach kulturowych i językach komunikacja jest bardziej dosłowna i sarkazm brzmi po prostu jak nieuprzejmość. Tekst: brak tonu, brak mimiki, ryzyko nieporozumienia rośnie dwukrotnie."
+          ]
+        },
+        {
+          "heading": "Czerwone światło",
+          "paragraphs": [
+            "Ktoś przeżywa trudny moment: choroba, strata, zwolnienie. Informacja zwrotna dla kogoś, kto od ciebie zależy (stażysta, podwładny, uczeń): sarkazm zamiast jasnego komunikatu uczy tylko lęku. Małe dzieci: do mniej więcej 8–10 roku życia często rozumieją sarkazm dosłownie. Osoby, które mogą odbierać język dosłownie, w tym część osób w spektrum autyzmu. Formalne pisma i wiadomości do ludzi, którzy cię nie znają."
+          ]
+        },
+        {
+          "heading": "Sarkazm zamiast rozmowy",
+          "paragraphs": [
+            "Najczęstsze nadużycie: sarkazm jako zastępnik szczerej rozmowy. „Nie, nie, w porządku, sam pozmywam, jak zawsze.” To pasywna agresja. Druga strona słyszy pretensję, ale nie wie, o co dokładnie chodzi, i nie może na nią odpowiedzieć.",
+            "Jeśli masz pretensję, powiedz ją wprost. Sarkazm zostaw na sytuacje, w których naprawdę chcesz rozśmieszyć."
+          ]
+        },
+        {
+          "heading": "Gdy sarkazm nie wypalił",
+          "paragraphs": [
+            "Zdarzy się każdemu. Nie tłumacz żartu w nieskończoność, nie dorzucaj kolejnego i nie udawaj, że nic się nie stało. Jedno zdanie: „Żartowałem, przepraszam, zabrzmiało gorzej, niż chciałem.” I idziesz dalej."
+          ],
+          "tip": "Test wspólnego śmiechu: czy ta osoba zaśmieje się razem ze mną, czy zostanie wyśmiana? Tylko pierwsza opcja to dobry sarkazm."
+        }
+      ],
+      "takeaways": [
+        "Zielone: bliscy, niska stawka, cel w sytuacji.",
+        "Czerwone: kryzys, feedback dla zależnych, małe dzieci, obcy, formalne pisma.",
+        "Sarkazm nie zastępuje szczerej rozmowy.",
+        "Gdy nie wypali: jedno zdanie przeprosin i dalej."
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "cj-01",
+      "moduleId": "czym-jest",
+      "kind": "rozpoznaj",
+      "context": "Kolega spóźnił się 40 minut na spotkanie, które sam zwołał.",
+      "quote": "O, jak miło, że jednak wpadłeś.",
+      "question": "Sarkazm czy na serio?",
+      "options": [
+        {
+          "text": "Sarkazm",
+          "correct": true,
+          "feedback": "Tak. Słowa dziękują, a sytuacja mówi „spóźniłeś się”. Rozdźwięk plus kpiące ostrze to sarkazm."
+        },
+        {
+          "text": "Na serio",
+          "correct": false,
+          "feedback": "Nie. Słowa dziękują, a sytuacja mówi „spóźniłeś się”. Rozdźwięk plus kpiące ostrze to sarkazm."
+        }
+      ]
+    },
+    {
+      "id": "cj-02",
+      "moduleId": "czym-jest",
+      "kind": "rozpoznaj",
+      "context": "Koleżanka przyniosła do biura ciasto. Zniknęło w pięć minut.",
+      "quote": "Naprawdę pyszne, dasz przepis?",
+      "question": "Sarkazm czy na serio?",
+      "options": [
+        {
+          "text": "Sarkazm",
+          "correct": false,
+          "feedback": "Nie. Słowa i sytuacja mówią to samo. Bez rozdźwięku nie ma sarkazmu."
+        },
+        {
+          "text": "Na serio",
+          "correct": true,
+          "feedback": "Tak. Słowa i sytuacja mówią to samo. Bez rozdźwięku nie ma sarkazmu."
+        }
+      ]
+    },
+    {
+      "id": "cj-03",
+      "moduleId": "czym-jest",
+      "kind": "rozpoznaj",
+      "context": "Komputer zawiesił się trzeci raz w ciągu godziny.",
+      "quote": "Uwielbiam nowoczesną technologię.",
+      "question": "Sarkazm czy na serio?",
+      "options": [
+        {
+          "text": "Sarkazm",
+          "correct": true,
+          "feedback": "Tak. Nikt nie uwielbia komputera, który się wiesza. Pochwała w tej sytuacji może być tylko kpiną."
+        },
+        {
+          "text": "Na serio",
+          "correct": false,
+          "feedback": "Nie. Nikt nie uwielbia komputera, który się wiesza. Pochwała w tej sytuacji może być tylko kpiną."
+        }
+      ]
+    },
+    {
+      "id": "cj-04",
+      "moduleId": "czym-jest",
+      "kind": "rozpoznaj",
+      "context": "Dziecko pokazuje mamie rysunek. Mama uśmiecha się szeroko.",
+      "quote": "Ładny, powiesimy go na lodówce.",
+      "question": "Sarkazm czy na serio?",
+      "options": [
+        {
+          "text": "Sarkazm",
+          "correct": false,
+          "feedback": "Nie. Uśmiech, pochwała i konkretny gest zgadzają się ze sobą. To szczera reakcja."
+        },
+        {
+          "text": "Na serio",
+          "correct": true,
+          "feedback": "Tak. Uśmiech, pochwała i konkretny gest zgadzają się ze sobą. To szczera reakcja."
+        }
+      ]
+    },
+    {
+      "id": "cj-05",
+      "moduleId": "czym-jest",
+      "kind": "rozpoznaj",
+      "context": "Ktoś przewrócił się na zupełnie równym chodniku.",
+      "quote": "Grawitacja dzisiaj wyjątkowo agresywna.",
+      "question": "Sarkazm czy na serio?",
+      "options": [
+        {
+          "text": "Sarkazm",
+          "correct": true,
+          "feedback": "Tak. Absurdalne wytłumaczenie wpadki to kpina, nie fizyka. Sarkazm celuje w sytuację."
+        },
+        {
+          "text": "Na serio",
+          "correct": false,
+          "feedback": "Nie. Absurdalne wytłumaczenie wpadki to kpina, nie fizyka. Sarkazm celuje w sytuację."
+        }
+      ]
+    },
+    {
+      "id": "cj-06",
+      "moduleId": "czym-jest",
+      "kind": "rozpoznaj",
+      "context": "Przyjaciel przez cały dzień nosił kartony przy twojej przeprowadzce.",
+      "quote": "Dzięki, bez ciebie bym tego nie ogarnął.",
+      "question": "Sarkazm czy na serio?",
+      "options": [
+        {
+          "text": "Sarkazm",
+          "correct": false,
+          "feedback": "Nie. Podziękowanie za realną pomoc. Słowa i fakty się zgadzają."
+        },
+        {
+          "text": "Na serio",
+          "correct": true,
+          "feedback": "Tak. Podziękowanie za realną pomoc. Słowa i fakty się zgadzają."
+        }
+      ]
+    },
+    {
+      "id": "cj-07",
+      "moduleId": "czym-jest",
+      "kind": "rozpoznaj",
+      "context": "Szef właśnie ogłosił nadgodziny w najbliższy weekend.",
+      "quote": "Super, i tak nie miałem planów na życie.",
+      "question": "Sarkazm czy na serio?",
+      "options": [
+        {
+          "text": "Sarkazm",
+          "correct": true,
+          "feedback": "Tak. „Super” w reakcji na zabrany weekend plus hiperbola o „planach na życie”. Podwójny sygnał."
+        },
+        {
+          "text": "Na serio",
+          "correct": false,
+          "feedback": "Nie. „Super” w reakcji na zabrany weekend plus hiperbola o „planach na życie”. Podwójny sygnał."
+        }
+      ]
+    },
+    {
+      "id": "cj-08",
+      "moduleId": "czym-jest",
+      "kind": "pojecie",
+      "context": "Strażakowi spłonął własny dom, gdy był na służbie przy innym pożarze.",
+      "question": "Co to za zjawisko?",
+      "options": [
+        {
+          "text": "Sarkazm",
+          "correct": false,
+          "feedback": "Nie. Sarkazm potrzebuje mówcy, który kpi. Tu nikt nic nie powiedział."
+        },
+        {
+          "text": "Ironia sytuacyjna",
+          "correct": true,
+          "feedback": "Tak. Rozdźwięk między oczekiwaniem (strażak chroni przed ogniem) a rzeczywistością, bez żadnego komentarza."
+        },
+        {
+          "text": "Cynizm",
+          "correct": false,
+          "feedback": "Nie. Cynizm to postawa wobec ludzi, nie zbieg okoliczności."
+        }
+      ]
+    },
+    {
+      "id": "cj-09",
+      "moduleId": "czym-jest",
+      "kind": "pojecie",
+      "context": "Powiedziane zupełnie serio, bez cienia żartu.",
+      "quote": "Ludzie zawsze zawodzą. Lepiej na nikogo nie liczyć.",
+      "question": "Co to jest?",
+      "options": [
+        {
+          "text": "Cynizm",
+          "correct": true,
+          "feedback": "Tak. To postawa: brak wiary w dobre intencje. Nie ma tu rozdźwięku między słowami a myślą."
+        },
+        {
+          "text": "Sarkazm",
+          "correct": false,
+          "feedback": "Nie. Mówca ma na myśli dokładnie to, co mówi. Sarkazm wymaga rozdźwięku."
+        },
+        {
+          "text": "Ironia sytuacyjna",
+          "correct": false,
+          "feedback": "Nie. Ironia sytuacyjna to zbieg okoliczności, nie deklaracja poglądów."
+        }
+      ]
+    },
+    {
+      "id": "cj-10",
+      "moduleId": "czym-jest",
+      "kind": "pojecie",
+      "context": "Kolega mówi to tak, żebyś uwierzył, choć nie ma zamiaru pożyczyć ani złotówki.",
+      "quote": "Jasne, pożyczę ci te 500 zł.",
+      "question": "Co to jest?",
+      "options": [
+        {
+          "text": "Kłamstwo",
+          "correct": true,
+          "feedback": "Tak. Kłamstwo chce, żebyś uwierzył. Sarkazm chce, żebyś NIE uwierzył."
+        },
+        {
+          "text": "Sarkazm",
+          "correct": false,
+          "feedback": "Nie. Sarkazm daje odbiorcy szansę zorientować się, że to nie serio. Tu tej szansy nie ma."
+        },
+        {
+          "text": "Ironia",
+          "correct": false,
+          "feedback": "Nie. Ironia zakłada, że rozdźwięk jest do odczytania. Tu jest ukryty celowo."
+        }
+      ]
+    },
+    {
+      "id": "sy-01",
+      "moduleId": "sygnaly",
+      "kind": "rozpoznaj",
+      "context": "Właśnie wylałeś kawę na klawiaturę.",
+      "quote": "No pięknie.",
+      "question": "Sarkazm czy na serio?",
+      "options": [
+        {
+          "text": "Sarkazm",
+          "correct": true,
+          "feedback": "Tak. „No” na początku zdania plus „pięknie” w reakcji na katastrofę. Klasyczny polski sarkazm w dwóch słowach."
+        },
+        {
+          "text": "Na serio",
+          "correct": false,
+          "feedback": "Nie. „No” na początku zdania plus „pięknie” w reakcji na katastrofę. Klasyczny polski sarkazm w dwóch słowach."
+        }
+      ]
+    },
+    {
+      "id": "sy-02",
+      "moduleId": "sygnaly",
+      "kind": "sygnal",
+      "context": "Po dwugodzinnej prezentacji ktoś wytyka ci jedną literówkę na ostatnim slajdzie.",
+      "quote": "Bardzo dziękuję za tę niezwykle cenną uwagę.",
+      "question": "Który sygnał najmocniej zdradza sarkazm?",
+      "options": [
+        {
+          "text": "Kontrast rejestru: nadmierna uprzejmość",
+          "correct": true,
+          "feedback": "Tak. Oficjalna, wyszukana forma w błahej sytuacji. Im grzeczniej, tym bardziej kąśliwie."
+        },
+        {
+          "text": "Przeciągnięte samogłoski",
+          "correct": false,
+          "feedback": "Nie. Tego nie widać w zapisie. Sygnałem jest tu sama forma wypowiedzi."
+        },
+        {
+          "text": "Emotka",
+          "correct": false,
+          "feedback": "Nie. Nie ma tu żadnej emotki. Sygnałem jest przesadna uprzejmość."
+        }
+      ]
+    },
+    {
+      "id": "sy-03",
+      "moduleId": "sygnaly",
+      "kind": "rozpoznaj",
+      "context": "SMS od koleżanki o znajomym, który spóźnia się na wszystko.",
+      "quote": "jasne, na pewno przyjdzie na czas 🙃",
+      "question": "Sarkazm czy na serio?",
+      "options": [
+        {
+          "text": "Sarkazm",
+          "correct": true,
+          "feedback": "Tak. „Jasne”, „na pewno” i 🙃 to trzy tekstowe sygnały naraz. W tekście trzeba ich więcej niż w mowie."
+        },
+        {
+          "text": "Na serio",
+          "correct": false,
+          "feedback": "Nie. „Jasne”, „na pewno” i 🙃 to trzy tekstowe sygnały naraz. W tekście trzeba ich więcej niż w mowie."
+        }
+      ]
+    },
+    {
+      "id": "sy-04",
+      "moduleId": "sygnaly",
+      "kind": "sygnal",
+      "question": "Które zdanie, bez żadnego kontekstu, najprawdopodobniej jest sarkastyczne?",
+      "options": [
+        {
+          "text": "„Dzięki za pomoc.”",
+          "correct": false,
+          "feedback": "Nie. To neutralne podziękowanie. Nic tu nie zgrzyta."
+        },
+        {
+          "text": "„No dzięki za pomoc.”",
+          "correct": true,
+          "feedback": "Tak. Partykuła „no” na początku to w polszczyźnie mocny sygnał sarkazmu."
+        },
+        {
+          "text": "„Dziękuję ci za pomoc.”",
+          "correct": false,
+          "feedback": "Nie. Pełna, spokojna forma. Bez kontekstu brzmi szczerze."
+        }
+      ]
+    },
+    {
+      "id": "sy-05",
+      "moduleId": "sygnaly",
+      "kind": "sygnal",
+      "context": "Po drobnej stłuczce na parkingu.",
+      "quote": "Najlepszy dzień w moim życiu.",
+      "question": "Który sygnał sarkazmu tu działa?",
+      "options": [
+        {
+          "text": "Hiperbola",
+          "correct": true,
+          "feedback": "Tak. „Najlepszy dzień w życiu” to przesada, która sama się demaskuje."
+        },
+        {
+          "text": "Niedopowiedzenie",
+          "correct": false,
+          "feedback": "Nie. Niedopowiedzenie umniejsza. Tu mamy odwrotność: wielkie słowa o drobnym zdarzeniu."
+        },
+        {
+          "text": "Kontrast rejestru",
+          "correct": false,
+          "feedback": "Nie. Nie ma tu oficjalnego tonu. Działa sama przesada."
+        }
+      ]
+    },
+    {
+      "id": "sy-06",
+      "moduleId": "sygnaly",
+      "kind": "sygnal",
+      "context": "Sytuacja A: klient właśnie podpisał umowę po twojej prezentacji. Sytuacja B: wylałeś kawę na laptop klienta.",
+      "quote": "Świetna robota.",
+      "question": "W której sytuacji to zdanie jest sarkazmem?",
+      "options": [
+        {
+          "text": "W sytuacji A",
+          "correct": false,
+          "feedback": "Nie. Po podpisanej umowie „świetna robota” to zwykła pochwała."
+        },
+        {
+          "text": "W sytuacji B",
+          "correct": true,
+          "feedback": "Tak. To samo zdanie, inna sytuacja. Sarkazm siedzi w kontekście, nie w słowach."
+        },
+        {
+          "text": "W obu",
+          "correct": false,
+          "feedback": "Nie. W sytuacji A nie ma rozdźwięku, więc nie ma sarkazmu."
+        },
+        {
+          "text": "W żadnej",
+          "correct": false,
+          "feedback": "Nie. W sytuacji B pochwała po katastrofie może być tylko kpiną."
+        }
+      ]
+    },
+    {
+      "id": "sy-07",
+      "moduleId": "sygnaly",
+      "kind": "sygnal",
+      "question": "Co w mowie najczęściej zdradza sarkazm?",
+      "options": [
+        {
+          "text": "Przeciągnięte samogłoski i płaski ton",
+          "correct": true,
+          "feedback": "Tak. „Świeeetnie” powiedziane bez emocji to podręcznikowy sygnał."
+        },
+        {
+          "text": "Szybkie tempo mówienia",
+          "correct": false,
+          "feedback": "Nie. Szybkie tempo to raczej zdenerwowanie albo pośpiech."
+        },
+        {
+          "text": "Podniesiony głos",
+          "correct": false,
+          "feedback": "Nie. Podniesiony głos to złość. Sarkazm zwykle jest cichy i spokojny."
+        }
+      ]
+    },
+    {
+      "id": "sy-08",
+      "moduleId": "sygnaly",
+      "kind": "rozpoznaj",
+      "context": "Odpisałeś klientowi po trzech tygodniach. Klient odpowiada:",
+      "quote": "Dziękujemy za błyskawiczną odpowiedź.",
+      "question": "Sarkazm czy na serio?",
+      "options": [
+        {
+          "text": "Sarkazm",
+          "correct": true,
+          "feedback": "Tak. „Błyskawiczna” po trzech tygodniach to rozdźwięk, którego nie da się przeoczyć."
+        },
+        {
+          "text": "Na serio",
+          "correct": false,
+          "feedback": "Nie. „Błyskawiczna” po trzech tygodniach to rozdźwięk, którego nie da się przeoczyć."
+        }
+      ]
+    },
+    {
+      "id": "sy-09",
+      "moduleId": "sygnaly",
+      "kind": "rozpoznaj",
+      "context": "Kolega wraca z urlopu wyraźnie opalony.",
+      "quote": "Widzę, że pogoda dopisała.",
+      "question": "Sarkazm czy na serio?",
+      "options": [
+        {
+          "text": "Sarkazm",
+          "correct": false,
+          "feedback": "Nie. Słowa zgadzają się z tym, co widać. Bez rozdźwięku to zwykła uwaga."
+        },
+        {
+          "text": "Na serio",
+          "correct": true,
+          "feedback": "Tak. Słowa zgadzają się z tym, co widać. Bez rozdźwięku to zwykła uwaga."
+        }
+      ]
+    },
+    {
+      "id": "sy-10",
+      "moduleId": "sygnaly",
+      "kind": "rozpoznaj",
+      "context": "Wiadomość od współpracownika na czacie.",
+      "quote": "Zrobione, raport jest w folderze. Daj znać, jeśli czegoś brakuje.",
+      "question": "Sarkazm czy na serio?",
+      "options": [
+        {
+          "text": "Sarkazm",
+          "correct": false,
+          "feedback": "Nie. Żadnego „no”, żadnej przesady, żadnej emotki. Nie każde zdanie kryje drugie dno."
+        },
+        {
+          "text": "Na serio",
+          "correct": true,
+          "feedback": "Tak. Żadnego „no”, żadnej przesady, żadnej emotki. Nie każde zdanie kryje drugie dno."
+        }
+      ]
+    },
+    {
+      "id": "ro-01",
+      "moduleId": "rodzaje",
+      "kind": "rodzaj",
+      "quote": "Jasne, ja i gotowanie. Ostatnio przypaliłem wodę.",
+      "question": "Jaki to rodzaj sarkazmu?",
+      "options": [
+        {
+          "text": "Autoironiczny",
+          "correct": true,
+          "feedback": "Tak. Celem jest sam mówca. Nikt inny nie oberwał."
+        },
+        {
+          "text": "Złośliwy",
+          "correct": false,
+          "feedback": "Nie, to autoironiczny. Celem jest sam mówca. Nikt inny nie oberwał."
+        },
+        {
+          "text": "Przesłodzony",
+          "correct": false,
+          "feedback": "Nie, to autoironiczny. Celem jest sam mówca. Nikt inny nie oberwał."
+        },
+        {
+          "text": "Ponury",
+          "correct": false,
+          "feedback": "Nie, to autoironiczny. Celem jest sam mówca. Nikt inny nie oberwał."
+        }
+      ]
+    },
+    {
+      "id": "ro-02",
+      "moduleId": "rodzaje",
+      "kind": "rodzaj",
+      "quote": "OCH, JAK CUDOWNIE! Kolejna ankieta satysfakcji! Nie mogę się doczekać!",
+      "question": "Jaki to rodzaj sarkazmu?",
+      "options": [
+        {
+          "text": "Entuzjastyczny",
+          "correct": true,
+          "feedback": "Tak. Przesadny zachwyt, który sam się demaskuje. Nikt tak nie cieszy się z ankiety."
+        },
+        {
+          "text": "Beznamiętny",
+          "correct": false,
+          "feedback": "Nie, to entuzjastyczny. Przesadny zachwyt, który sam się demaskuje. Nikt tak nie cieszy się z ankiety."
+        },
+        {
+          "text": "Autoironiczny",
+          "correct": false,
+          "feedback": "Nie, to entuzjastyczny. Przesadny zachwyt, który sam się demaskuje. Nikt tak nie cieszy się z ankiety."
+        },
+        {
+          "text": "Ponury",
+          "correct": false,
+          "feedback": "Nie, to entuzjastyczny. Przesadny zachwyt, który sam się demaskuje. Nikt tak nie cieszy się z ankiety."
+        }
+      ]
+    },
+    {
+      "id": "ro-03",
+      "moduleId": "rodzaje",
+      "kind": "rodzaj",
+      "quote": "Tak. Bardzo się cieszę.",
+      "question": "Jaki to rodzaj sarkazmu?",
+      "options": [
+        {
+          "text": "Beznamiętny",
+          "correct": true,
+          "feedback": "Tak. Kamienna twarz i płaski ton. Sygnałem jest właśnie brak sygnałów."
+        },
+        {
+          "text": "Entuzjastyczny",
+          "correct": false,
+          "feedback": "Nie, to beznamiętny. Kamienna twarz i płaski ton. Sygnałem jest właśnie brak sygnałów."
+        },
+        {
+          "text": "Przesłodzony",
+          "correct": false,
+          "feedback": "Nie, to beznamiętny. Kamienna twarz i płaski ton. Sygnałem jest właśnie brak sygnałów."
+        },
+        {
+          "text": "Złośliwy",
+          "correct": false,
+          "feedback": "Nie, to beznamiętny. Kamienna twarz i płaski ton. Sygnałem jest właśnie brak sygnałów."
+        }
+      ],
+      "context": "Powiedziane bez zmiany tonu, bez uśmiechu, patrząc w punkt na ścianie."
+    },
+    {
+      "id": "ro-04",
+      "moduleId": "rodzaje",
+      "kind": "rodzaj",
+      "quote": "Kochanie, to takie urocze, że znowu zostawiłeś naczynia. Uwielbiam je myć.",
+      "question": "Jaki to rodzaj sarkazmu?",
+      "options": [
+        {
+          "text": "Przesłodzony",
+          "correct": true,
+          "feedback": "Tak. Ocieka czułością, a pod spodem siedzi pretensja. Im słodsze słowa, tym więcej kwasu."
+        },
+        {
+          "text": "Beznamiętny",
+          "correct": false,
+          "feedback": "Nie, to przesłodzony. Ocieka czułością, a pod spodem siedzi pretensja. Im słodsze słowa, tym więcej kwasu."
+        },
+        {
+          "text": "Autoironiczny",
+          "correct": false,
+          "feedback": "Nie, to przesłodzony. Ocieka czułością, a pod spodem siedzi pretensja. Im słodsze słowa, tym więcej kwasu."
+        },
+        {
+          "text": "Entuzjastyczny",
+          "correct": false,
+          "feedback": "Nie, to przesłodzony. Ocieka czułością, a pod spodem siedzi pretensja. Im słodsze słowa, tym więcej kwasu."
+        }
+      ]
+    },
+    {
+      "id": "ro-05",
+      "moduleId": "rodzaje",
+      "kind": "rodzaj",
+      "quote": "Brawo, geniuszu. Naprawdę, Nobel czeka.",
+      "question": "Jaki to rodzaj sarkazmu?",
+      "options": [
+        {
+          "text": "Złośliwy",
+          "correct": true,
+          "feedback": "Tak. Wymierzony w konkretną osobę, żeby ją obniżyć. Najbardziej ryzykowny rodzaj."
+        },
+        {
+          "text": "Autoironiczny",
+          "correct": false,
+          "feedback": "Nie, to złośliwy. Wymierzony w konkretną osobę, żeby ją obniżyć. Najbardziej ryzykowny rodzaj."
+        },
+        {
+          "text": "Przesłodzony",
+          "correct": false,
+          "feedback": "Nie, to złośliwy. Wymierzony w konkretną osobę, żeby ją obniżyć. Najbardziej ryzykowny rodzaj."
+        },
+        {
+          "text": "Beznamiętny",
+          "correct": false,
+          "feedback": "Nie, to złośliwy. Wymierzony w konkretną osobę, żeby ją obniżyć. Najbardziej ryzykowny rodzaj."
+        }
+      ]
+    },
+    {
+      "id": "ro-06",
+      "moduleId": "rodzaje",
+      "kind": "rodzaj",
+      "quote": "Nie, spoko, ja zostanę po godzinach. Jak zawsze. Nikt inny przecież nie może.",
+      "question": "Jaki to rodzaj sarkazmu?",
+      "options": [
+        {
+          "text": "Ponury",
+          "correct": true,
+          "feedback": "Tak. Pod sarkazmem siedzi prawdziwy żal. To pretensja powiedziana naokoło."
+        },
+        {
+          "text": "Entuzjastyczny",
+          "correct": false,
+          "feedback": "Nie, to ponury. Pod sarkazmem siedzi prawdziwy żal. To pretensja powiedziana naokoło."
+        },
+        {
+          "text": "Autoironiczny",
+          "correct": false,
+          "feedback": "Nie, to ponury. Pod sarkazmem siedzi prawdziwy żal. To pretensja powiedziana naokoło."
+        },
+        {
+          "text": "Przesłodzony",
+          "correct": false,
+          "feedback": "Nie, to ponury. Pod sarkazmem siedzi prawdziwy żal. To pretensja powiedziana naokoło."
+        }
+      ]
+    },
+    {
+      "id": "ro-07",
+      "moduleId": "rodzaje",
+      "kind": "rodzaj",
+      "question": "Który rodzaj sarkazmu jest najbezpieczniejszy w nowej grupie?",
+      "options": [
+        {
+          "text": "Autoironiczny",
+          "correct": true,
+          "feedback": "Tak. Celujesz w siebie, więc nikt nie może się obrazić. Idealny na start."
+        },
+        {
+          "text": "Złośliwy",
+          "correct": false,
+          "feedback": "Nie. Złośliwość wobec ludzi, których nie znasz, to najkrótsza droga do konfliktu."
+        },
+        {
+          "text": "Przesłodzony",
+          "correct": false,
+          "feedback": "Nie. Obcy nie wiedzą, czy jesteś miły, czy kpisz. Ryzykowne."
+        },
+        {
+          "text": "Beznamiętny",
+          "correct": false,
+          "feedback": "Nie. Nowi ludzie nie znają twojej kamiennej twarzy i wezmą to dosłownie."
+        }
+      ]
+    },
+    {
+      "id": "ro-08",
+      "moduleId": "rodzaje",
+      "kind": "rodzaj",
+      "question": "Który rodzaj sarkazmu najtrudniej rozpoznać przez telefon albo w tekście?",
+      "options": [
+        {
+          "text": "Beznamiętny",
+          "correct": true,
+          "feedback": "Tak. Jego jedynym sygnałem jest brak sygnałów. Bez twarzy i sytuacji brzmi jak powaga."
+        },
+        {
+          "text": "Entuzjastyczny",
+          "correct": false,
+          "feedback": "Nie. Przesadny zachwyt widać nawet w SMS-ie, zwłaszcza wielkimi literami."
+        },
+        {
+          "text": "Złośliwy",
+          "correct": false,
+          "feedback": "Nie. Złośliwość zwykle czuć od razu, niezależnie od kanału."
+        },
+        {
+          "text": "Autoironiczny",
+          "correct": false,
+          "feedback": "Nie. Autoironia zwykle sama podaje kontekst („ja i punktualność”)."
+        }
+      ]
+    },
+    {
+      "id": "ro-09",
+      "moduleId": "rodzaje",
+      "kind": "rodzaj",
+      "quote": "Egzamin poszedł mi świetnie. Jeśli za świetnie uznać 3 punkty na 100.",
+      "question": "Jaki to rodzaj sarkazmu?",
+      "options": [
+        {
+          "text": "Autoironiczny",
+          "correct": true,
+          "feedback": "Tak. Mówca kpi z własnego wyniku. Druga część zdania sama zdradza żart."
+        },
+        {
+          "text": "Złośliwy",
+          "correct": false,
+          "feedback": "Nie, to autoironiczny. Mówca kpi z własnego wyniku. Druga część zdania sama zdradza żart."
+        },
+        {
+          "text": "Ponury",
+          "correct": false,
+          "feedback": "Nie, to autoironiczny. Mówca kpi z własnego wyniku. Druga część zdania sama zdradza żart."
+        },
+        {
+          "text": "Beznamiętny",
+          "correct": false,
+          "feedback": "Nie, to autoironiczny. Mówca kpi z własnego wyniku. Druga część zdania sama zdradza żart."
+        }
+      ]
+    },
+    {
+      "id": "ro-10",
+      "moduleId": "rodzaje",
+      "kind": "rodzaj",
+      "quote": "Bardzo, ale to bardzo dziękuję, że mi przypomniałaś. Trzeci raz dzisiaj. Jesteś aniołem.",
+      "question": "Jaki to rodzaj sarkazmu?",
+      "options": [
+        {
+          "text": "Przesłodzony",
+          "correct": true,
+          "feedback": "Tak. Podziękowania i „anioł” w reakcji na irytujące przypominanie. Słodycz z kwasem w środku."
+        },
+        {
+          "text": "Autoironiczny",
+          "correct": false,
+          "feedback": "Nie, to przesłodzony. Podziękowania i „anioł” w reakcji na irytujące przypominanie. Słodycz z kwasem w środku."
+        },
+        {
+          "text": "Entuzjastyczny",
+          "correct": false,
+          "feedback": "Nie, to przesłodzony. Podziękowania i „anioł” w reakcji na irytujące przypominanie. Słodycz z kwasem w środku."
+        },
+        {
+          "text": "Beznamiętny",
+          "correct": false,
+          "feedback": "Nie, to przesłodzony. Podziękowania i „anioł” w reakcji na irytujące przypominanie. Słodycz z kwasem w środku."
+        }
+      ]
+    },
+    {
+      "id": "ri-01",
+      "moduleId": "riposta",
+      "kind": "riposta",
+      "context": "Kolega, trzeci raz w tym tygodniu:",
+      "quote": "Znowu zapomniałem hasła.",
+      "question": "Wybierz najlepszą sarkastyczną ripostę.",
+      "options": [
+        {
+          "text": "„Zapisz je na karteczce i przyklej do monitora. Bezpieczne i wygodne.”",
+          "correct": true,
+          "feedback": "Tak. Zgoda doprowadzona do absurdu: krótko, celuje w sytuację, kolega się zaśmieje."
+        },
+        {
+          "text": "„Jesteś beznadziejny.”",
+          "correct": false,
+          "feedback": "Nie. To obraza, nie sarkazm. Nie ma tu żadnego rozdźwięku między słowami a myślą."
+        },
+        {
+          "text": "„Zainstaluj menedżer haseł.”",
+          "correct": false,
+          "feedback": "Nie. Dobra rada, ale zupełnie na serio. Pytanie było o ripostę."
+        },
+        {
+          "text": "„Ha, ha. To ironiczne, bo hasła powinno się pamiętać.”",
+          "correct": false,
+          "feedback": "Nie. Tłumaczenie żartu zabija żart. Riposta ma się bronić sama."
+        }
+      ]
+    },
+    {
+      "id": "ri-02",
+      "moduleId": "riposta",
+      "kind": "riposta",
+      "context": "Współpracownik obiecuje to samo od tygodnia:",
+      "quote": "Wyślę ci to do końca dnia.",
+      "question": "Wybierz najlepszą sarkastyczną ripostę.",
+      "options": [
+        {
+          "text": "„Jasne. Którego?”",
+          "correct": true,
+          "feedback": "Tak. Dosłowność w dwóch słowach. Krótko, celnie, bez obrażania."
+        },
+        {
+          "text": "„Kłamiesz jak zawsze.”",
+          "correct": false,
+          "feedback": "Nie. Oskarżenie wprost. Może i prawdziwe, ale to nie riposta, to zarzut."
+        },
+        {
+          "text": "„OK, dzięki.”",
+          "correct": false,
+          "feedback": "Nie. Zupełnie na serio. Nie ma tu żadnego ostrza."
+        },
+        {
+          "text": "„Mówię z sarkazmem: jasne, jasne.”",
+          "correct": false,
+          "feedback": "Nie. Zapowiadanie sarkazmu to jak zapowiadanie puenty. Nie rób tego."
+        }
+      ]
+    },
+    {
+      "id": "ri-03",
+      "moduleId": "riposta",
+      "kind": "riposta",
+      "context": "Wychodzisz z dwugodzinnego spotkania, które mogło być mailem. Kolega pyta:",
+      "quote": "I jak było?",
+      "question": "Wybierz najlepszą sarkastyczną ripostę.",
+      "options": [
+        {
+          "text": "„Cudownie. Rozważam prośbę o dogrywkę.”",
+          "correct": true,
+          "feedback": "Tak. Przesadna pochwała plus absurdalny szczegół. Celuje w spotkanie, nie w ludzi."
+        },
+        {
+          "text": "„Okropnie, nie znoszę tych spotkań.”",
+          "correct": false,
+          "feedback": "Nie. Szczere narzekanie. Prawdziwe, ale bez żadnego żartu."
+        },
+        {
+          "text": "„Ironicznie mówiąc: świetnie.”",
+          "correct": false,
+          "feedback": "Nie. Etykieta „ironicznie” zabija efekt. Odbiorca sam ma to wyłapać."
+        },
+        {
+          "text": "„Szef to idiota.”",
+          "correct": false,
+          "feedback": "Nie. Obraza konkretnej osoby. Nie sarkazm, tylko ryzyko zawodowe."
+        }
+      ]
+    },
+    {
+      "id": "ri-04",
+      "moduleId": "riposta",
+      "kind": "riposta",
+      "context": "Znajomy chwali się, jakby wygrał milion:",
+      "quote": "Wygrałem 5 złotych na loterii!",
+      "question": "Wybierz najlepszą sarkastyczną ripostę.",
+      "options": [
+        {
+          "text": "„No to możesz już rzucić pracę.”",
+          "correct": true,
+          "feedback": "Tak. Hiperbola w jednym zdaniu. Śmieje się z sytuacji, nie ze znajomego."
+        },
+        {
+          "text": "„Gratulacje!”",
+          "correct": false,
+          "feedback": "Nie. Miłe i na serio. Pytanie było o ripostę."
+        },
+        {
+          "text": "„To bardzo mało.”",
+          "correct": false,
+          "feedback": "Nie. Dosłowne, suche i lekko przykre. Bez żadnego rozdźwięku."
+        },
+        {
+          "text": "„Chciałbym mieć twoje szczęście. Oczywiście żartuję, bo 5 zł to mało.”",
+          "correct": false,
+          "feedback": "Nie. Dobry początek zabity tłumaczeniem. Zatrzymaj się po pierwszym zdaniu."
+        }
+      ]
+    },
+    {
+      "id": "ri-05",
+      "moduleId": "riposta",
+      "kind": "technika",
+      "quote": "Co?! Spóźniłeś się?! To zupełnie do ciebie niepodobne.",
+      "question": "Jaka technika została użyta?",
+      "options": [
+        {
+          "text": "Fałszywe zaskoczenie",
+          "correct": true,
+          "feedback": "Tak. Udawane zdumienie czymś całkowicie przewidywalnym."
+        },
+        {
+          "text": "Niedopowiedzenie",
+          "correct": false,
+          "feedback": "Nie. Niedopowiedzenie umniejsza. Tu mamy udawane zdziwienie."
+        },
+        {
+          "text": "Dosłowność",
+          "correct": false,
+          "feedback": "Nie. Dosłowność bierze czyjeś słowa wprost. Tu nikt nic nie powiedział."
+        }
+      ]
+    },
+    {
+      "id": "ri-06",
+      "moduleId": "riposta",
+      "kind": "technika",
+      "context": "Szef prosi o „jeszcze jedną małą rzecz” do piątku.",
+      "quote": "Jasne, dodajmy jeszcze trzy funkcje przed piątkiem. I przy okazji przepiszmy całość od zera.",
+      "question": "Jaka technika została użyta?",
+      "options": [
+        {
+          "text": "Zgoda doprowadzona do absurdu",
+          "correct": true,
+          "feedback": "Tak. Przytaknięcie i pociągnięcie pomysłu, aż sam się ośmieszy."
+        },
+        {
+          "text": "Fałszywe zaskoczenie",
+          "correct": false,
+          "feedback": "Nie. Nikt tu nie udaje zdziwienia. Mówca się „zgadza”."
+        },
+        {
+          "text": "Przesadna pochwała",
+          "correct": false,
+          "feedback": "Nie. Nikt niczego nie chwali. Mówca eskaluje pomysł."
+        }
+      ]
+    },
+    {
+      "id": "ri-07",
+      "moduleId": "riposta",
+      "kind": "technika",
+      "context": "Serwer padł, cała firma stoi, telefony się urywają.",
+      "quote": "Mamy mały problem.",
+      "question": "Jaka technika została użyta?",
+      "options": [
+        {
+          "text": "Niedopowiedzenie",
+          "correct": true,
+          "feedback": "Tak. Katastrofa opisana jak drobiazg. Działa najlepiej z kamienną twarzą."
+        },
+        {
+          "text": "Hiperbola",
+          "correct": false,
+          "feedback": "Nie. Hiperbola wyolbrzymia. Tu jest dokładnie odwrotnie."
+        },
+        {
+          "text": "Dosłowność",
+          "correct": false,
+          "feedback": "Nie. Nikt nie bierze niczyich słów wprost. Mówca umniejsza skalę."
+        }
+      ]
+    },
+    {
+      "id": "ri-08",
+      "moduleId": "riposta",
+      "kind": "technika",
+      "quote": "Świetny pomysł… to znaczy mówię ironicznie, bo wcale nie uważam, że jest świetny, bo ma sporo wad.",
+      "question": "Która zasada dobrej riposty została złamana?",
+      "options": [
+        {
+          "text": "Nie tłumacz żartu",
+          "correct": true,
+          "feedback": "Tak. „Świetny pomysł” wystarczyło. Reszta to instrukcja obsługi żartu."
+        },
+        {
+          "text": "Celuj w sytuację, nie w osobę",
+          "correct": false,
+          "feedback": "Nie. Riposta celuje w pomysł, więc ta zasada jest zachowana. Złamano inną."
+        },
+        {
+          "text": "Ton pewny",
+          "correct": false,
+          "feedback": "Nie. Problemem nie jest ton, tylko to, że mówca tłumaczy własny żart."
+        }
+      ]
+    },
+    {
+      "id": "ri-09",
+      "moduleId": "riposta",
+      "kind": "riposta",
+      "context": "Kolega pokazuje slajd: 400 słów tekstu czcionką 8 punktów.",
+      "quote": "I jak wygląda?",
+      "question": "Wybierz najlepszą sarkastyczną ripostę.",
+      "options": [
+        {
+          "text": "„Czytelnie. Z lupą.”",
+          "correct": true,
+          "feedback": "Tak. Pochwała z jednym demaskującym szczegółem. Dwa słowa i po sprawie."
+        },
+        {
+          "text": "„Za dużo tekstu, zmniejsz.”",
+          "correct": false,
+          "feedback": "Nie. Dobry feedback, ale na serio. Pytanie było o ripostę."
+        },
+        {
+          "text": "„Fatalnie. Kto cię tego uczył?”",
+          "correct": false,
+          "feedback": "Nie. To atak na osobę, bez żadnego rozdźwięku. Obraza, nie sarkazm."
+        },
+        {
+          "text": "„Wygląda dobrze.”",
+          "correct": false,
+          "feedback": "Nie. Bez żadnego sygnału to po prostu nieszczera pochwała. Kolega w nią uwierzy."
+        }
+      ]
+    },
+    {
+      "id": "ri-10",
+      "moduleId": "riposta",
+      "kind": "riposta",
+      "context": "Przyjaciel, szczerze skruszony:",
+      "quote": "Przepraszam, zapomniałem o twoich urodzinach.",
+      "question": "Która riposta jest lekka, a nie przestrzelona?",
+      "options": [
+        {
+          "text": "„Nie szkodzi, mam je co roku. Jeszcze załapiesz.”",
+          "correct": true,
+          "feedback": "Tak. Jedno zdanie, ciepłe ostrze. Przyjaciel się zaśmieje i temat zamknięty."
+        },
+        {
+          "text": "„Jasne, bo przecież nigdy nic dla ciebie nie znaczyłem, nasza przyjaźń to fikcja, dzięki, naprawdę, wspaniale.”",
+          "correct": false,
+          "feedback": "Nie. Seria sarkazmów to już nie żart, to kłótnia. Jedna riposta wystarczy."
+        },
+        {
+          "text": "„OK.”",
+          "correct": false,
+          "feedback": "Nie. Zero sarkazmu, ale też zero ciepła. Brzmi jak foch."
+        },
+        {
+          "text": "„Nie obchodzi mnie to.”",
+          "correct": false,
+          "feedback": "Nie. Na serio i chłodno. Nic tu nie jest żartem."
+        }
+      ]
+    },
+    {
+      "id": "ki-01",
+      "moduleId": "kiedy",
+      "kind": "stosownosc",
+      "context": "Koleżanka mówi ci, że jej pies jest ciężko chory.",
+      "quote": "No super, będziesz miała powód do wolnego.",
+      "question": "Czy sarkazm jest tu na miejscu?",
+      "options": [
+        {
+          "text": "Tak, na miejscu",
+          "correct": false,
+          "feedback": "Nie. Ktoś przeżywa trudny moment. Czerwone światło, bez wyjątków."
+        },
+        {
+          "text": "Nie, odpuść",
+          "correct": true,
+          "feedback": "Tak. Ktoś przeżywa trudny moment. Czerwone światło, bez wyjątków."
+        }
+      ]
+    },
+    {
+      "id": "ki-02",
+      "moduleId": "kiedy",
+      "kind": "stosownosc",
+      "context": "Kumpel od dziesięciu lat spóźnia się, jak zwykle, pięć minut.",
+      "quote": "Punktualny jak zawsze.",
+      "question": "Czy sarkazm jest tu na miejscu?",
+      "options": [
+        {
+          "text": "Tak, na miejscu",
+          "correct": true,
+          "feedback": "Tak. Bliska osoba, niska stawka, wspólny kod. Zaśmieje się razem z tobą."
+        },
+        {
+          "text": "Nie, odpuść",
+          "correct": false,
+          "feedback": "Nie. Bliska osoba, niska stawka, wspólny kod. Zaśmieje się razem z tobą."
+        }
+      ]
+    },
+    {
+      "id": "ki-03",
+      "moduleId": "kiedy",
+      "kind": "stosownosc",
+      "context": "Nowy stażysta, którego jesteś opiekunem, popełnił błąd w raporcie.",
+      "quote": "No, pięknie. Gratuluję.",
+      "question": "Czy sarkazm jest tu na miejscu?",
+      "options": [
+        {
+          "text": "Tak, na miejscu",
+          "correct": false,
+          "feedback": "Nie. Feedback dla kogoś zależnego. Sarkazm uczy tu lęku, nie poprawy. Powiedz wprost, co i jak poprawić."
+        },
+        {
+          "text": "Nie, odpuść",
+          "correct": true,
+          "feedback": "Tak. Feedback dla kogoś zależnego. Sarkazm uczy tu lęku, nie poprawy. Powiedz wprost, co i jak poprawić."
+        }
+      ]
+    },
+    {
+      "id": "ki-04",
+      "moduleId": "kiedy",
+      "kind": "stosownosc",
+      "context": "Mail do klienta, którego nigdy nie spotkałeś, po jego dwutygodniowym opóźnieniu.",
+      "quote": "Dziękujemy za błyskawiczną odpowiedź.",
+      "question": "Czy sarkazm jest tu na miejscu?",
+      "options": [
+        {
+          "text": "Tak, na miejscu",
+          "correct": false,
+          "feedback": "Nie. Obcy człowiek, tekst bez tonu, relacja zawodowa. Trzy czerwone flagi naraz."
+        },
+        {
+          "text": "Nie, odpuść",
+          "correct": true,
+          "feedback": "Tak. Obcy człowiek, tekst bez tonu, relacja zawodowa. Trzy czerwone flagi naraz."
+        }
+      ]
+    },
+    {
+      "id": "ki-05",
+      "moduleId": "kiedy",
+      "kind": "stosownosc",
+      "context": "Partner znów zostawił naczynia w zlewie. Zamiast rozmowy mówisz:",
+      "quote": "Nie, nie, ja pozmywam. Jak zawsze.",
+      "question": "Czy sarkazm jest tu na miejscu?",
+      "options": [
+        {
+          "text": "Tak, na miejscu",
+          "correct": false,
+          "feedback": "Nie. To pasywna agresja: pretensja powiedziana naokoło. Druga strona nie wie, na co ma odpowiedzieć. Powiedz wprost."
+        },
+        {
+          "text": "Nie, odpuść",
+          "correct": true,
+          "feedback": "Tak. To pasywna agresja: pretensja powiedziana naokoło. Druga strona nie wie, na co ma odpowiedzieć. Powiedz wprost."
+        }
+      ]
+    },
+    {
+      "id": "ki-06",
+      "moduleId": "kiedy",
+      "kind": "stosownosc",
+      "context": "Pięciolatek z dumą pokazuje „posprzątany” pokój, w którym nic się nie zmieniło.",
+      "quote": "Pięknie posprzątane.",
+      "question": "Czy sarkazm jest tu na miejscu?",
+      "options": [
+        {
+          "text": "Tak, na miejscu",
+          "correct": false,
+          "feedback": "Nie. Małe dzieci biorą słowa dosłownie. Usłyszy pochwałę i uzna, że tak wygląda porządek."
+        },
+        {
+          "text": "Nie, odpuść",
+          "correct": true,
+          "feedback": "Tak. Małe dzieci biorą słowa dosłownie. Usłyszy pochwałę i uzna, że tak wygląda porządek."
+        }
+      ]
+    },
+    {
+      "id": "ki-07",
+      "moduleId": "kiedy",
+      "kind": "stosownosc",
+      "context": "Grupa znajomych wychodzi z kina po wyjątkowo słabym filmie.",
+      "quote": "Arcydzieło. Oscar murowany.",
+      "question": "Czy sarkazm jest tu na miejscu?",
+      "options": [
+        {
+          "text": "Tak, na miejscu",
+          "correct": true,
+          "feedback": "Tak. Znajomi, niska stawka, celujesz w film, nie w człowieka. Wszyscy się śmieją."
+        },
+        {
+          "text": "Nie, odpuść",
+          "correct": false,
+          "feedback": "Nie. Znajomi, niska stawka, celujesz w film, nie w człowieka. Wszyscy się śmieją."
+        }
+      ]
+    },
+    {
+      "id": "ki-08",
+      "moduleId": "kiedy",
+      "kind": "stosownosc",
+      "context": "Kolega z pracy właśnie dostał wypowiedzenie.",
+      "quote": "No to masz wreszcie wolny weekend.",
+      "question": "Czy sarkazm jest tu na miejscu?",
+      "options": [
+        {
+          "text": "Tak, na miejscu",
+          "correct": false,
+          "feedback": "Nie. Kryzys drugiej osoby. Nawet jeśli kolega sam żartuje, ty nie zaczynaj."
+        },
+        {
+          "text": "Nie, odpuść",
+          "correct": true,
+          "feedback": "Tak. Kryzys drugiej osoby. Nawet jeśli kolega sam żartuje, ty nie zaczynaj."
+        }
+      ]
+    },
+    {
+      "id": "ki-09",
+      "moduleId": "kiedy",
+      "kind": "stosownosc",
+      "context": "Twój żart nie wypalił. Osoba wyraźnie wygląda na urażoną.",
+      "question": "Co robisz?",
+      "options": [
+        {
+          "text": "Mówisz: „Żartowałem, przepraszam, zabrzmiało gorzej, niż chciałem” i zmieniasz temat.",
+          "correct": true,
+          "feedback": "Tak. Jedno zdanie, bez tłumaczenia żartu, i idziesz dalej."
+        },
+        {
+          "text": "Tłumaczysz przez pięć minut, dlaczego to było śmieszne.",
+          "correct": false,
+          "feedback": "Nie. Tłumaczenie żartu nie naprawia sytuacji, tylko ją przedłuża."
+        },
+        {
+          "text": "Dorzucasz kolejny żart, żeby rozluźnić atmosferę.",
+          "correct": false,
+          "feedback": "Nie. Drugi żart po nieudanym pierwszym zwykle pogarsza sprawę."
+        },
+        {
+          "text": "Udajesz, że nic się nie stało.",
+          "correct": false,
+          "feedback": "Nie. Urażona osoba to zapamięta. Jedno krótkie przeprosiny kosztuje mniej."
+        }
+      ]
+    },
+    {
+      "id": "ki-10",
+      "moduleId": "kiedy",
+      "kind": "stosownosc",
+      "context": "Drukarka w biurze znowu się zacięła, tym razem przy Marku.",
+      "question": "Które zdanie kieruje sarkazm w sytuację, a nie w człowieka?",
+      "options": [
+        {
+          "text": "„Ta drukarka ma najwyraźniej własne zdanie o naszych terminach.”",
+          "correct": true,
+          "feedback": "Tak. Cel: drukarka. Marek śmieje się razem z tobą."
+        },
+        {
+          "text": "„Ty to nawet drukarki nie umiesz obsłużyć. Brawo.”",
+          "correct": false,
+          "feedback": "Nie. Cel: Marek. To obraza z sarkastyczną nakładką."
+        },
+        {
+          "text": "„Marek jak zwykle zepsuł drukarkę. Cudownie.”",
+          "correct": false,
+          "feedback": "Nie. Nadal celuje w Marka, tylko naokoło. Wyśmiany, nie rozśmieszony."
+        }
+      ]
+    }
+  ]
+}

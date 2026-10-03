@@ -1,6 +1,11 @@
 # Akademia Sarkazmu
 
-Aplikacja webowa do nauki sarkazmu: pięć lekcji z teorią, po każdej dziesięć ćwiczeń, na końcu egzamin. Działa w przeglądarce na komputerze i telefonie, nie wymaga backendu ani konta. Postęp zapisuje się w `localStorage` przeglądarki.
+Aplikacja do nauki sarkazmu: pięć lekcji z teorią, po każdej dziesięć ćwiczeń, na końcu egzamin. Istnieje w dwóch wersjach o tej samej treści:
+
+- **natywna aplikacja na Androida** (Kotlin + Jetpack Compose) w katalogu `android/`,
+- **aplikacja webowa** (Vite + React) w katalogu głównym.
+
+Żadna nie wymaga backendu ani konta. Postęp zapisuje się lokalnie na urządzeniu.
 
 ## Co jest w środku
 
@@ -48,6 +53,39 @@ rodzaj('ro-11', 'Wypowiedź.', 'auto', ['zlosliwy', 'slodki', 'ponury'], 'Dlacze
 ```
 
 Liczba ćwiczeń w lekcji musi równać się `quizSize` modułu w `src/data/modules.ts` (pilnuje tego test).
+
+## Aplikacja na Androida
+
+Natywna aplikacja w Kotlinie i Jetpack Compose, minimalnie Android 8.0 (API 26).
+
+```
+android/
+  core/   logika i treść w czystym Kotlinie (osobny build, testy bez Android SDK)
+  app/    interfejs w Jetpack Compose, ViewModel, zapis postępu w SharedPreferences
+```
+
+**Instalacja na telefonie.** Workflow „Android” w GitHub Actions buduje APK przy każdej zmianie w `android/` lub w treści kursu. Pobierz artefakt `akademia-sarkazmu-debug-apk` z ostatniego udanego przebiegu, rozpakuj i otwórz plik `app-debug.apk` na telefonie. Android poprosi o zgodę na instalację z nieznanego źródła.
+
+**Budowanie lokalnie** (wymaga Android SDK, np. z Android Studio):
+
+```bash
+cd android
+./gradlew -p core test                 # logika i treść, działa bez Android SDK
+./gradlew :app:testDebugUnitTest       # testy interfejsu (Robolectric)
+./gradlew :app:assembleDebug           # APK w app/build/outputs/apk/debug/
+```
+
+Można też otworzyć katalog `android/` w Android Studio i uruchomić aplikację na emulatorze.
+
+### Wspólna treść
+
+Lekcje i ćwiczenia są zapisane raz, w `src/data/`. Aplikacja na Androida czyta je z pliku `android/core/src/main/resources/content.json`. Po każdej zmianie treści wygeneruj ten plik ponownie:
+
+```bash
+npm run export:content
+```
+
+Test w `src/test/export.test.ts` nie przejdzie, jeśli plik jest nieaktualny, więc CI wyłapie zapomniany eksport.
 
 ## Publikacja na GitHub Pages
 
