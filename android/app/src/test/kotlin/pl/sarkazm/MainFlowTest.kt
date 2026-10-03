@@ -16,13 +16,11 @@ import androidx.compose.ui.test.performScrollTo
 import androidx.lifecycle.ViewModelProvider
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertNull
+import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
-import org.junit.rules.ExternalResource
-import org.junit.rules.RuleChain
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import org.robolectric.RuntimeEnvironment
 import org.robolectric.annotation.Config
 import pl.sarkazm.core.ProgressCodec
 import pl.sarkazm.data.SharedPrefsProgressStore
@@ -31,22 +29,18 @@ import pl.sarkazm.ui.AppViewModel
 @RunWith(RobolectricTestRunner::class)
 @Config(sdk = [35])
 class MainFlowTest {
+    @get:Rule
     val compose = createAndroidComposeRule<MainActivity>()
 
     /**
-     * SharedPreferences potrafią przetrwać między testami w tym samym procesie Robolectric.
-     * Czyścimy je, zanim reguła Compose uruchomi aktywność, bo ViewModel czyta postęp przy starcie.
+     * Robolectric potrafi przenieść zapisany postęp do kolejnego testu w tym samym procesie.
+     * Zerujemy go tą samą ścieżką co przycisk „Wyzeruj postęp”, więc test zawsze startuje od zera.
      */
-    private val clearProgress = object : ExternalResource() {
-        override fun before() {
-            RuntimeEnvironment.getApplication()
-                .getSharedPreferences(SharedPrefsProgressStore.PREFS_NAME, Context.MODE_PRIVATE)
-                .edit().clear().commit()
-        }
+    @Before
+    fun startFromScratch() {
+        compose.runOnUiThread { vm.resetProgress() }
+        compose.waitForIdle()
     }
-
-    @get:Rule
-    val rules: RuleChain = RuleChain.outerRule(clearProgress).around(compose)
 
     private val vm: AppViewModel get() = ViewModelProvider(compose.activity)[AppViewModel::class.java]
 
