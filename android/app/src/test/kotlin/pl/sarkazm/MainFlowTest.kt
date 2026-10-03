@@ -9,6 +9,8 @@ import androidx.compose.ui.test.onAllNodesWithText
 import androidx.compose.ui.test.onNodeWithContentDescription
 import androidx.compose.ui.test.onNodeWithTag
 import androidx.compose.ui.test.onNodeWithText
+import androidx.compose.ui.test.onRoot
+import androidx.compose.ui.test.printToString
 import androidx.compose.ui.test.performClick
 import androidx.compose.ui.test.performScrollTo
 import androidx.lifecycle.ViewModelProvider
@@ -52,8 +54,15 @@ class MainFlowTest {
         compose.activity.getSharedPreferences(SharedPrefsProgressStore.PREFS_NAME, Context.MODE_PRIVATE)
             .getString(SharedPrefsProgressStore.KEY, null)
 
-    private fun click(text: String) {
+    private fun click(text: String) = withTreeOnFailure {
         compose.onNodeWithText(text).performScrollTo().performClick()
+    }
+
+    /** Przy porażce dołącza do komunikatu drzewo semantyczne ekranu, żeby było widać, co faktycznie pokazano. */
+    private fun <T> withTreeOnFailure(block: () -> T): T = try {
+        block()
+    } catch (e: AssertionError) {
+        throw AssertionError(e.message + "\n\nEkran:\n" + compose.onRoot().printToString(maxDepth = 30), e)
     }
 
     /** Odpowiada na wszystkie pytania; poprawnie albo celowo źle. */
@@ -72,9 +81,11 @@ class MainFlowTest {
     @Test
     fun naStarcieDostepnaJestTylkoPierwszaLekcja() {
         compose.onNodeWithText("1. Czym jest sarkazm").assertExists()
-        compose.onNodeWithText("0/6").assertExists()
-        compose.onAllNodesWithText("🔒 Zablokowane").assertCountEquals(5)
-        compose.onNodeWithText("Zacznij").assertIsEnabled()
+        withTreeOnFailure {
+            compose.onNodeWithText("0/6").assertExists()
+            compose.onAllNodesWithText("🔒 Zablokowane").assertCountEquals(5)
+            compose.onNodeWithText("Zacznij").assertIsEnabled()
+        }
     }
 
     @Test
